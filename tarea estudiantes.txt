@@ -1,0 +1,52 @@
+tarea app para estudiantes que olvidan hacer las tareas 
+1. Identificar al menos dos usuarios para aplicación
+usuario estudiante
+usuario profesor 
+usuario administrador 
+
+2.Identificar los roles de cada uno de esos usuarios
+PERFILES Y ROLES
+
+Usuario 1.
+Nombre Laura Gomez
+Edad 20 años
+Caracteristicas
+Maneja varias materias al mismo tiempo
+Usa el telefono movil constantemente
+Tiene dificultad organizando fechas limite
+Motivacion
+Evitar olvidar tareas y mejorar rendimiento academico
+Problema que enfrenta
+Olvido frecuente de fechas de entrega
+Desorganizacion del tiempo
+Registrar tareas
+Recibir recordatorios automaticos
+Visualizar calendario academico
+Marcar tareas como completadas
+
+Usuario 2.
+Nombre Andres Martinez
+Edad 38 años
+Caracteristicas
+Gestiona varios grupos academicos
+Necesita comunicacion clara con estudiantes
+Busca mayor cumplimiento en entregas
+Motivacion
+Mejorar cumplimiento academico
+Falta de seguimiento del cumplimiento de tareas
+Dificultad para garantizar que todos conocen las fechas
+Necesidades que debe cubrir la app
+Publicar tareas con fecha limite
+Editar informacion de tareas
+Visualizar estado de entrega
+Enviar notificaciones a los grupos
+
+
+
+3. Nombre, Edad, características,motivación a usar la app
+
+4. Por cada rol identificar qué problema particular enfrentaría cada usuario
+
+5.Para cada perfil definir que necesita hacer la app
+
+6.Defina mínimo 5 requisitos funcionales identificando la prioridad de cada uno de ellos
