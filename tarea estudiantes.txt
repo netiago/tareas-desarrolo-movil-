@@ -8,8 +8,8 @@ usuario administrador
 PERFILES Y ROLES
 
 Usuario 1.
-Nombre Laura Gomez
-Edad 20 años
+Estudiante
+Edad 18-25 años
 Caracteristicas
 Maneja varias materias al mismo tiempo
 Usa el telefono movil constantemente
@@ -17,7 +17,7 @@ Tiene dificultad organizando fechas limite
 Motivacion
 Evitar olvidar tareas y mejorar rendimiento academico
 Problema que enfrenta
-Olvido frecuente de fechas de entrega
+Olvida frecuente de fechas de entrega
 Desorganizacion del tiempo
 Registrar tareas
 Recibir recordatorios automaticos
@@ -25,8 +25,8 @@ Visualizar calendario academico
 Marcar tareas como completadas
 
 Usuario 2.
-Nombre Andres Martinez
-Edad 38 años
+profesor 
+Edad 30-35 años
 Caracteristicas
 Gestiona varios grupos academicos
 Necesita comunicacion clara con estudiantes
@@ -41,12 +41,117 @@ Editar informacion de tareas
 Visualizar estado de entrega
 Enviar notificaciones a los grupos
 
+Usuario 3
+administrador
+Edad 20-40 anos
+Caracteristicas
+Gestiona el sistema institucional
+Controla accesos y permisos
+Supervisa el funcionamiento general
+Motivacion
+Garantizar orden seguridad y control del sistema
+Problema que enfrenta
+Necesidad de administrar usuarios y roles
+Control sobre la informacion academica
+Necesidades que debe cubrir la app
+Crear usuarios
+Eliminar usuarios
+Asignar roles
+Supervisar actividad del sistema
+3. Por cada rol identificar qué problema particular enfrentaría cada usuario
+Rol Estudiante
+El estudiante enfrenta dificultad para recordar fechas de entrega
+El estudiante tiene problemas organizando varias tareas al mismo tiempo
+El estudiante no cuenta con recordatorios confiables
+El estudiante olvida actividades academicas importantes
 
+Rol Profesor
+El profesor no tiene certeza de que los estudiantes conozcan las tareas asignadas
+El profesor enfrenta bajo cumplimiento en las entregas
+El profesor debe repetir informacion sobre fechas y actividades
+El profesor no puede hacer seguimiento centralizado de tareas
 
-3. Nombre, Edad, características,motivación a usar la app
-
-4. Por cada rol identificar qué problema particular enfrentaría cada usuario
-
-5.Para cada perfil definir que necesita hacer la app
+Rol administrador
+El administrador no tiene control total sobre los usuarios del sistema
+El administrador enfrenta dificultad para gestionar permisos y roles
+El administrador necesita supervisar la actividad general de la aplicacion
+El administrador debe garantizar el correcto funcionamiento del sistema
 
 6.Defina mínimo 5 requisitos funcionales identificando la prioridad de cada uno de ellos
+
+Registro e inicio de sesion
+Accion
+Registrar usuario
+Descripcion
+El sistema permite registrar un usuario segun su rol dentro de la aplicacion
+Entrada
+Datos personales del usuario
+Rol seleccionado
+Salida
+Cuenta creada correctamente
+Acceso al sistema
+Codigo
+RF01
+
+
+Accion
+Crear tarea
+Descripcion
+El profesor puede crear una tarea academica con informacion completa
+Entrada
+Titulo de la tarea
+Descripcion de la tarea
+Fecha limite
+Grupo asignado
+Salida
+Tarea registrada en el sistema
+Tarea visible para los estudiantes
+Codigo
+RF02
+
+Accion
+Enviar recordatorio
+Descripcion
+El sistema envia notificaciones automaticas antes de la fecha de entrega
+Entrada
+Fecha limite de la tarea
+Lista de estudiantes asociados
+Salida
+Notificacion enviada al estudiante
+Codigo
+RF03
+
+Accion
+Visualizar tareas
+Descripcion
+El estudiante puede consultar todas sus tareas pendientes y completadas
+Entrada
+Usuario autenticado
+Salida
+Lista de tareas organizada por fecha
+Codigo
+RF04
+
+Accion
+Gestionar usuarios
+Descripcion
+El administrador controla la creacion modificacion y eliminacion de usuarios
+Entrada
+Datos del usuario
+Rol asignado
+Salida
+Usuario actualizado dentro del sistema
+Codigo
+RF05
+
+Accion
+Cambiar estado de tarea
+Descripcion
+El estudiante puede marcar una tarea como completada o pendiente
+Entrada
+Identificador de la tarea
+Nuevo estado
+Salida
+Estado de la tarea actualizado
+Codigo
+RF06
