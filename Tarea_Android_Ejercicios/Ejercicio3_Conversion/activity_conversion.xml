@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/etFahrenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese grados Fahrenheit"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnConvertir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convertir a Celsius"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/white"/>
+
+    <TextView
+        android:id="@+id/tvResultadoC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado:"
+        android:textSize="25dp"
+        android:layout_marginTop="40dp" />
+
+</LinearLayout>
